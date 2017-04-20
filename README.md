@@ -36,7 +36,12 @@ Ever have a "I lost all my work and I have a deadline the next day" moment? Git 
     - [Refactoring](#refactoring)
     - [Architecture](#architecture)
     - [Miscellaneous](#miscellaneous)
-    
+    - [Videos](#videos)
+- [Slides](#slides)
+- [Courses](#courses)
+- [Books](#books)
+- [Some Questions](#some-questions)
+
   1. [Introduction](#introduction)
   2. [Variables](#variables)
   3. [Functions](#functions)
