@@ -170,7 +170,7 @@ Once you're done with that much, you should go for advance things like forking, 
 Remember, there's a lot to learn in Git & GitHub. It will take some time, so be patient.
 **[⬆ back to top](#table-of-contents)**
 
-<h2 align="center">Problem 1:-</h2>
-## **Cannot Push to Github:Everything Up to Date**
 
+## **Cannot Push to Github:Everything Up to Date**
+<h2 align="center">Problem 1:-</h2>
 **[⬆ back to top](#table-of-contents)**
