@@ -31,7 +31,7 @@ Git is a software that allows you to keep track of changes made to a project ove
     - [What is Git and GitHub?](#what-is-git-and-github)
     - [Why use something like Git?](#why-use-something-like-git)
     - [Git Repeatedly Use Word](#git-repeatedly-use-word )
-    - [GitHub is not just for developers](#gitHub-is-not-just-for-developers)
+    - [GitHub is not just for developers](#github-is-not-just-for-developers)
     - [Other Version Control System](#other-version-control-system)
     - [Architecture](#architecture)
     - [Miscellaneous](#miscellaneous)
@@ -159,6 +159,7 @@ Since Git was designed with a big project like Linux in mind, there are a lot of
 
 <b>git pull:</b> If you’re working on your local computer and want the most up-to-date version of your repository to work with, you “pull” the changes down from GitHub with this command.
 **[⬆ back to top](#table-of-contents)**
+
 ## **GitHub is not just for developers**
 
 All this talk about how GitHub is ideal for programmers may have you believing that they are the only ones who will find it useful. Although it’s a lot less common, GitHub can actually be used for any types of files – so if you have a team that is constantly making changes to a word document, you can actually use GitHub as your version control system. This practice isn’t common as there are better alternatives, but keep it in mind.**[⬆ back to top](#table-of-contents)**
