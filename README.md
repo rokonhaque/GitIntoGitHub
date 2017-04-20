@@ -35,7 +35,7 @@ Git is a software that allows you to keep track of changes made to a project ove
     - [Other Version Control System](#other-version-control-system)
  
 - [Git Facing Problems](#git-facing-problems)
-    - [Cannot Push to Github:Everything Up to Date](#cannot-push-to-github-everything-up-to-date)
+    - [Cannot Push to Github Everything Up to Date](#cannot-push-to-github-everything-up-to-date)
   
   ## **What is Git and GitHub?**
   Thank famed software developer <b>Linus Torvalds</b> for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
@@ -171,5 +171,5 @@ Remember, there's a lot to learn in Git & GitHub. It will take some time, so be 
 **[⬆ back to top](#table-of-contents)**
 
 
-## **Cannot Push to Github:Everything Up to Date**
+## **Cannot Push to Github Everything Up to Date**
 **[⬆ back to top](#table-of-contents)**
