@@ -60,7 +60,7 @@ Git is a software that allows you to keep track of changes made to a project ove
   A version control application like Git keeps that from happening. You and your coworker can each upload your revisions to the same page, and Git will save two copies. Later, you can merge your changes together without losing any work along the way. You can even revert to an earlier version at any time, because Git keeps a “snapshot” of every change ever made.
 
   The problem with Git is that it’s so ancient that we have to use the command line—or Terminal if you’re a Mac user—in order to access it, typing in snippets of code like ‘90s hackers. This can be a difficult proposition for modern computer users. That’s where GitHub comes in. </p> **[⬆ back to top](#table-of-contents)**
-  ## **Git Repeatedly Use Word !**
+  ## **Git Repeatedly Use Word**
   <p>
   <b>Command Line:</b> The computer program we use to input Git commands. On a Mac, it’s called Terminal. On a PC, it’s a non-native program that you download when you download Git for the first time (we’ll do that in the next section). In both cases, you type text-based commands, known as prompts, into the screen, instead of using a mouse.
 
