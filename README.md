@@ -53,17 +53,17 @@ Git is a software that allows you to keep track of changes made to a project ove
   Git and GitHub are two of the coolest technologies around for developers. Git, despite its complexity and rather terse beginnings, is the version control tool of choice for everyone from web designers to kernel developers. And GitHub is the social code-hosting platform used more than any other. On GitHub, you’ll find everything from playful, simple experiments to the Linux kernel itself.
   GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. 
   
-  ## GitHub
+## GitHub
 
- Github is a graphical interface and a sort of face-on-the internet for all sorts of files (but mostly code) that you or someone from the open source community has shared.
+Github is a graphical interface and a sort of face-on-the internet for all sorts of files (but mostly code) that you or someone from the open source community has shared.
 
- Github reduces redundancy in version control and helps you to keep your project folder clean and well-managed, and allows rolling back to previous versions flexibly :)
+Github reduces redundancy in version control and helps you to keep your project folder clean and well-managed, and allows rolling back to previous versions flexibly :)
 
- Not just that, Github also makes it easy for several people working on a project to collaborate and make all their changes to a common repository.
+Not just that, Github also makes it easy for several people working on a project to collaborate and make all their changes to a common repository.
 
- GitHub is like Wikipedia for programmers. You can edit files, see who changed what, view old versions of files, and access it from anywhere in the world – except you’re working with source code instead of encyclopedia data. Companies use it to build software and websites, while hobbyist programmers use it to find and share projects.
+GitHub is like Wikipedia for programmers. You can edit files, see who changed what, view old versions of files, and access it from anywhere in the world – except you’re working with source code instead of encyclopedia data. Companies use it to build software and websites, while hobbyist programmers use it to find and share projects.
 
- It's a hosting site for source code (computer software). It let's you keep your source code safe.
+It's a hosting site for source code (computer software). It let's you keep your source code safe.
 
  ## Git
 
