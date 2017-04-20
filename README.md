@@ -1,4 +1,4 @@
-<h1 align="center">GitIntoGitHub!</h1>
+<h1 align="center">Git-[Into]-GitHub!</h1>
 
 <p align="center">
 <a href="https://travis-ci.org/php-school/learn-you-php">
