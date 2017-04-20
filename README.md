@@ -49,9 +49,10 @@ Git is a software that allows you to keep track of changes made to a project ove
   3. [Functions](#functions)
   
   ## What is Git & GitHub?
-  Thank famed software developer Linus Torvalds for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
+  <p>
+  Thank famed software developer <b>Linus Torvalds</b> for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
   Git and GitHub are two of the coolest technologies around for developers. Git, despite its complexity and rather terse beginnings, is the version control tool of choice for everyone from web designers to kernel developers. And GitHub is the social code-hosting platform used more than any other. On GitHub, you’ll find everything from playful, simple experiments to the Linux kernel itself.
-GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. **[⬆ back to top](#table-of-contents)**
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. </p> **[⬆ back to top](#table-of-contents)**
   ## Why use something like Git? 
 Say you and a coworker are both updating pages on the same website. You make your changes, save them, and upload them back to the website. So far, so good. The problem comes when your coworker is working on the same page as you at the same time. One of you is about to have your work overwritten and erased.
 
@@ -59,7 +60,8 @@ A version control application like Git keeps that from happening. You and your c
 
 The problem with Git is that it’s so ancient that we have to use the command line—or Terminal if you’re a Mac user—in order to access it, typing in snippets of code like ‘90s hackers. This can be a difficult proposition for modern computer users. That’s where GitHub comes in. **[⬆ back to top](#table-of-contents)**
   ## Git Repeatedly Use Word !
-Command Line: The computer program we use to input Git commands. On a Mac, it’s called Terminal. On a PC, it’s a non-native program that you download when you download Git for the first time (we’ll do that in the next section). In both cases, you type text-based commands, known as prompts, into the screen, instead of using a mouse.
+  <p>
+  <b>Command Line:</b> The computer program we use to input Git commands. On a Mac, it’s called Terminal. On a PC, it’s a non-native program that you download when you download Git for the first time (we’ll do that in the next section). In both cases, you type text-based commands, known as prompts, into the screen, instead of using a mouse.
 
 Repository: A directory or storage space where your projects can live. Sometimes GitHub users shorten this to “repo.” It can be local to a folder on your computer, or it can be a storage space on GitHub or another online host. You can keep code files, text files, image files, you name it, inside a repository.
 
@@ -67,7 +69,7 @@ Version Control: Basically, the purpose Git was designed to serve. When you have
 
 Commit: This is the command that gives Git its power. When you commit, you are taking a “snapshot” of your repository at that point in time, giving you a checkpoint to which you can reevaluate or restore your project to any previous state.
 
-Branch: How do multiple people work on a project at the same time without Git getting them confused? Usually, they “branch off” of the main project with their own versions full of changes they themselves have made. After they’re done, it’s time to “merge” that branch back with the “master,” the main directory of the project. **[⬆ back to top](#table-of-contents)**
+Branch: How do multiple people work on a project at the same time without Git getting them confused? Usually, they “branch off” of the main project with their own versions full of changes they themselves have made. After they’re done, it’s time to “merge” that branch back with the “master,” the main directory of the project.</p> **[⬆ back to top](#table-of-contents)**
 
 
   ## Introduction
