@@ -51,7 +51,59 @@ Git is a software that allows you to keep track of changes made to a project ove
   ## **What is Git and GitHub?**
   Thank famed software developer <b>Linus Torvalds</b> for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
   Git and GitHub are two of the coolest technologies around for developers. Git, despite its complexity and rather terse beginnings, is the version control tool of choice for everyone from web designers to kernel developers. And GitHub is the social code-hosting platform used more than any other. On GitHub, you’ll find everything from playful, simple experiments to the Linux kernel itself.
-  GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. **[⬆ back to top](#table-of-contents)**
+  GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. 
+  
+  ## GitHub
+
+ Github is a graphical interface and a sort of face-on-the internet for all sorts of files (but mostly code) that you or someone from the open source community has shared.
+
+ Github reduces redundancy in version control and helps you to keep your project folder clean and well-managed, and allows rolling back to previous versions flexibly :)
+
+ Not just that, Github also makes it easy for several people working on a project to collaborate and make all their changes to a common repository.
+
+ GitHub is like Wikipedia for programmers. You can edit files, see who changed what, view old versions of files, and access it from anywhere in the world – except you’re working with source code instead of encyclopedia data. Companies use it to build software and websites, while hobbyist programmers use it to find and share projects.
+
+ It's a hosting site for source code (computer software). It let's you keep your source code safe.
+
+ ## Git
+
+ Version Control System ( Keep reading and this will make sense towards the end ) .
+
+Lets say you have a project you want to work on. 
+
+Now you have 2 primary motives.
+
+         (a)  To write some code
+
+          (b)  To take up the project as a team , meaning that more than one people are going to be responsible for writing the code.
+
+So, suppose you write a "Hello World!" program and then your friend/other developer decides that it should say "Hello, I am awesome"
+
+instead of the original "Hello World!".
+
+Even for this little piece of code, you will have a copy in your PC and your friend will have one in his PC. 
+
+Lets say you change the code, now at this point your friend wouldn't know the changes you have made and vice versa.
+
+This is where the Git magic comes.  
+
+   ## 1. Git lets you save your code online.
+
+   ## 2. Git will allow all the developers of a project to see what changes the other one has made.
+
+   ## 3. It allows you to discuss issues in your code with other developers.
+
+     And a lot more...
+
+Git is an open-source version control system.
+
+ ## Version control systems ?
+
+ So, Git is a “version control system,” what’s that mean? When developers are creating something (an application, for example), they are making constant changes to the code and releasing new versions, up to and after the first official (non-beta) release.
+
+ Version control systems store the modifications in a central repository. This allows developers to easily collaborate, as they can download a new version of the software, make changes, and upload the newest revision. Every developer can see these new changes, download them, and contribute.
+
+  **[⬆ back to top](#table-of-contents)**
 
   ## **Why use something like Git?** 
   <p>
