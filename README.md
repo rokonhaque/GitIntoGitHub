@@ -31,8 +31,8 @@ Git is a software that allows you to keep track of changes made to a project ove
     - [What is Git and GitHub?](#what-is-git-and-github)
     - [Why use something like Git?](#why-use-something-like-git)
     - [Git Repeatedly Use Word](#git-repeatedly-use-word )
-    - [Design Patterns](#design-patterns)
-    - [Refactoring](#refactoring)
+    - [GitHub is not just for developers](#gitHub-is-not-just-for-developers)
+    - [Other Version Control System](#other-version-control-system)
     - [Architecture](#architecture)
     - [Miscellaneous](#miscellaneous)
     - [Videos](#videos)
@@ -102,6 +102,15 @@ Git is an open-source version control system.
  So, Git is a “version control system,” what’s that mean? When developers are creating something (an application, for example), they are making constant changes to the code and releasing new versions, up to and after the first official (non-beta) release.
 
  Version control systems store the modifications in a central repository. This allows developers to easily collaborate, as they can download a new version of the software, make changes, and upload the newest revision. Every developer can see these new changes, download them, and contribute.
+ Similarly, people who have nothing to do with the development of a project can still download the files and use them. Most Linux users should be familiar with this process.
+
+## Terminology :
+
+A repository is a folder inside which you are going to store every piece of your code.
+
+Copying someones repository into your account is called forking.
+
+The guy or organisation which owns the code that you forked.
 
   **[⬆ back to top](#table-of-contents)**
 
@@ -123,6 +132,52 @@ Git is an open-source version control system.
   <b>Commit</b>: This is the command that gives Git its power. When you commit, you are taking a “snapshot” of your repository at that point in time, giving you a checkpoint to which you can reevaluate or restore your project to any previous state.
 
   <b>Branch</b>: How do multiple people work on a project at the same time without Git getting them confused? Usually, they “branch off” of the main project with their own versions full of changes they themselves have made. After they’re done, it’s time to “merge” that branch back with the “master,” the main directory of the project.</p> **[⬆ back to top](#table-of-contents)**
+
+## **Git-Specific Commands**
+
+Since Git was designed with a big project like Linux in mind, there are a lot of Git commands. However, to use the basics of Git, you’ll only need to know a few terms. They all begin the same way, with the word “git.”
+
+<b>git init:</b> Initializes a new Git repository. Until you run this command inside a repository or directory, it’s just a regular folder. Only after you input this does it accept further Git commands.
+
+<b>git config:</b> Short for “configure,” this is most useful when you’re setting up Git for the first time.
+
+<b>git help:</b> Forgot a command? Type this into the command line to bring up the 21 most common git commands. You can also be more specific and type “git help init” or another term to figure out how to use and configure a specific git command.
+
+<b>git status:</b> Check the status of your repository. See which files are inside it, which changes still need to be committed, and which branch of the repository you’re currently working on.
+
+<b>git add:</b> This does not add new files to your repository. Instead, it brings new files to Git’s attention. After you add files, they’re included in Git’s “snapshots” of the repository.
+
+<b>git commit:</b> Git’s most important command. After you make any sort of change, you input this in order to take a “snapshot” of the repository. Usually it goes git commit -m “Message here.” The -m indicates that the following section of the command should be read as a message.
+
+<b>git branch:</b> Working with multiple collaborators and want to make changes on your own? This command will let you build a new branch, or timeline of commits, of changes and file additions that are completely your own. Your title goes after the command. If you wanted a new branch called “cats,” you’d type git branch cats.
+
+<b>git checkout:</b> Literally allows you to “check out” a repository that you are not currently inside. This is a navigational command that lets you move to the repository you want to check. You can use this command as git checkout master to look at the master branch, or git checkout cats to look at another branch.
+
+<b>git merge:</b> When you’re done working on a branch, you can merge your changes back to the master branch, which is visible to all collaborators. git merge cats would take all the changes you made to the “cats” branch and add them to the master.
+
+<b>git push:</b> If you’re working on your local computer, and want your commits to be visible online on GitHub as well, you “push” the changes up to GitHub with this command.
+
+<b>git pull:</b> If you’re working on your local computer and want the most up-to-date version of your repository to work with, you “pull” the changes down from GitHub with this command.
+
+## **GitHub is not just for developers**
+
+All this talk about how GitHub is ideal for programmers may have you believing that they are the only ones who will find it useful. Although it’s a lot less common, GitHub can actually be used for any types of files – so if you have a team that is constantly making changes to a word document, you can actually use GitHub as your version control system. This practice isn’t common as there are better alternatives, but keep it in mind.
+
+## **Other Version Control System**
+There isn’t only Git for this, here is a list of other Version Control System.
+
+1.     CVS
+2.     Subversion
+3.     Bazaar
+4.     Bitkeeper
+
+Learn
+
+If you want to learn GitHub, I would recommend you to first learn on Git (at least understand what the usual work flow is) and then try and host some small repository on GitHub.
+
+Once you're done with that much, you should go for advance things like forking, branching, merging, pull requests etc...
+
+Remember, there's a lot to learn in Git & GitHub. It will take some time, so be patient.
 
 
   ## Introduction
