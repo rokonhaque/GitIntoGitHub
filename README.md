@@ -158,18 +158,18 @@ Since Git was designed with a big project like Linux in mind, there are a lot of
 <b>git push:</b> If you’re working on your local computer, and want your commits to be visible online on GitHub as well, you “push” the changes up to GitHub with this command.
 
 <b>git pull:</b> If you’re working on your local computer and want the most up-to-date version of your repository to work with, you “pull” the changes down from GitHub with this command.
-
+**[⬆ back to top](#table-of-contents)**
 ## **GitHub is not just for developers**
 
-All this talk about how GitHub is ideal for programmers may have you believing that they are the only ones who will find it useful. Although it’s a lot less common, GitHub can actually be used for any types of files – so if you have a team that is constantly making changes to a word document, you can actually use GitHub as your version control system. This practice isn’t common as there are better alternatives, but keep it in mind.
+All this talk about how GitHub is ideal for programmers may have you believing that they are the only ones who will find it useful. Although it’s a lot less common, GitHub can actually be used for any types of files – so if you have a team that is constantly making changes to a word document, you can actually use GitHub as your version control system. This practice isn’t common as there are better alternatives, but keep it in mind.**[⬆ back to top](#table-of-contents)**
 
 ## **Other Version Control System**
 There isn’t only Git for this, here is a list of other Version Control System.
 
-1.     CVS
-2.     Subversion
-3.     Bazaar
-4.     Bitkeeper
+     CVS
+     Subversion
+     Bazaar
+     Bitkeeper
 
 Learn
 
@@ -178,7 +178,7 @@ If you want to learn GitHub, I would recommend you to first learn on Git (at lea
 Once you're done with that much, you should go for advance things like forking, branching, merging, pull requests etc...
 
 Remember, there's a lot to learn in Git & GitHub. It will take some time, so be patient.
-
+**[⬆ back to top](#table-of-contents)**
 
   ## Introduction
 ![Humorous image of software quality estimation as a count of how many expletives
