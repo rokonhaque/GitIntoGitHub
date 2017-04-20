@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-Git, simply put, is a tool to save versions of your code.</br> Ever have a "I lost all my work and I have a deadline the next day" moment? Git is the most popular version control tool - something that developers use to save all relevant versions of their work to avoid moments like those. Git also makes it easy for developers to collaborate and share work with others!
+Git, simply put, is a tool to save versions of your code.Git is the most popular version control tool - something that developers use to save all relevant versions of their work to avoid moments like those. Git also makes it easy for developers to collaborate and share work with others!
 </p>
 <p align="center">
 <img width="700" alt="GitIntoGitHub!" src="https://www.linode.com/docs/assets/git-github-workflow-1000w.png">
