@@ -1,4 +1,5 @@
 <h1 align="center">GitIntoGitHub!</h1>
+
 <p align="center">
 <a href="https://travis-ci.org/php-school/learn-you-php">
     <img src="https://img.shields.io/travis/php-school/learn-you-php/master.svg?style=flat-square&label=Linux">
@@ -16,7 +17,7 @@
     <img src="https://phpschool.herokuapp.com/badge.svg">
 </a>
 </p>
-----
+
 <p align="center">
 Git, simply put, is a tool to save versions of your code. This course will show you basic workflow and core features, different ways to undo changes or save multiple versions of a project, and how to collaborate with other developers. 
 </p>
