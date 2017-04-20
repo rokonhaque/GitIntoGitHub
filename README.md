@@ -29,7 +29,7 @@ Git is a software that allows you to keep track of changes made to a project ove
 ## Table of Contents
 - [Tutorials](#tutorials)
     - [What is Git and GitHub](#what-is-git-and-github)
-    - [OOP Advanced](#oop-advanced)
+    - [Why use something like Git?](#why-use-something-like-git?)
     - [Object Oriented Design](#object-oriented-design)
     - [Design Patterns](#design-patterns)
     - [Refactoring](#refactoring)
@@ -53,7 +53,7 @@ Git is a software that allows you to keep track of changes made to a project ove
   Git and GitHub are two of the coolest technologies around for developers. Git, despite its complexity and rather terse beginnings, is the version control tool of choice for everyone from web designers to kernel developers. And GitHub is the social code-hosting platform used more than any other. On GitHub, you’ll find everything from playful, simple experiments to the Linux kernel itself.
   GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. **[⬆ back to top](#table-of-contents)**
 
-  ## Why use something like Git? 
+  ## **Why use something like Git?** 
   <p>
   Say you and a coworker are both updating pages on the same website. You make your changes, save them, and upload them back to   the website. So far, so good. The problem comes when your coworker is working on the same page as you at the same time. One of you is about to have your work overwritten and erased.
 
