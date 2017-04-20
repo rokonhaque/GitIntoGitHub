@@ -28,7 +28,7 @@ Git is a software that allows you to keep track of changes made to a project ove
 
 ## Table of Contents
 - [Tutorials](#tutorials)
-    - [OOP Fundamentals](#oop-fundamentals)
+    - [What is Git & GitHub?](#what-is-git&github?)
     - [OOP Advanced](#oop-advanced)
     - [Object Oriented Design](#object-oriented-design)
     - [Design Patterns](#design-patterns)
@@ -52,7 +52,8 @@ Git is a software that allows you to keep track of changes made to a project ove
   <p>
   Thank famed software developer <b>Linus Torvalds</b> for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
   Git and GitHub are two of the coolest technologies around for developers. Git, despite its complexity and rather terse beginnings, is the version control tool of choice for everyone from web designers to kernel developers. And GitHub is the social code-hosting platform used more than any other. On GitHub, you’ll find everything from playful, simple experiments to the Linux kernel itself.
-  GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. </p> **[⬆ back to top](#table-of-contents)**
+  GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p> 
+  **[⬆ back to top](#table-of-contents)**
 
   ## Why use something like Git? 
   <p>
