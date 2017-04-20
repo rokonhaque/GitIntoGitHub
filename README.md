@@ -44,15 +44,8 @@ Git is a software that allows you to keep track of changes made to a project ove
   1. [Introduction](#introduction)
   2. [Variables](#variables)
   3. [Functions](#functions)
-  4. [Objects and Data Structures](#objects-and-data-structures)
-  5. [Classes](#classes)
-  6. [SOLID](#solid)
-  7. [Testing](#testing)
-  8. [Concurrency](#concurrency)
-  9. [Error Handling](#error-handling)
-  10. [Formatting](#formatting)
-  11. [Comments](#comments)
-  12. [Translation](#translation)
+  
+  ## What is GitHub?
   
   ## Introduction
 ![Humorous image of software quality estimation as a count of how many expletives
