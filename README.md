@@ -28,7 +28,7 @@ Git is a software that allows you to keep track of changes made to a project ove
 
 ## Table of Contents
 - [Tutorials](#tutorials)
-    - [What is Git & GitHub?](#what-is-git&github?)
+    - [What is Git & GitHub?](#what-is-git-&-github?)
     - [OOP Advanced](#oop-advanced)
     - [Object Oriented Design](#object-oriented-design)
     - [Design Patterns](#design-patterns)
