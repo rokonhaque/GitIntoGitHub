@@ -33,20 +33,9 @@ Git is a software that allows you to keep track of changes made to a project ove
     - [Git Repeatedly Use Word](#git-repeatedly-use-word )
     - [GitHub is not just for developers](#github-is-not-just-for-developers)
     - [Other Version Control System](#other-version-control-system)
-    - [Architecture](#architecture)
-    - [Miscellaneous](#miscellaneous)
-    - [Videos](#videos)
+ 
 - [Git Facing Problems](#git-facing-problems)
-    - [OOP Fundamentals](#oop-fundamentals)
-    - [OOP Advanced](#oop-advanced)
-    - [Object Oriented Design](#object-oriented-design)
-- [Courses](#courses)
-- [Books](#books)
-- [Some Questions](#some-questions)
-
-  1. [Introduction](#introduction)
-  2. [Variables](#variables)
-  3. [Functions](#functions)
+    - [Cannot Push to Github:Everything Up to Date](#cannot-push-to-github-everything-up-to-date)
   
   ## **What is Git and GitHub?**
   Thank famed software developer <b>Linus Torvalds</b> for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
@@ -181,26 +170,8 @@ Once you're done with that much, you should go for advance things like forking, 
 Remember, there's a lot to learn in Git & GitHub. It will take some time, so be patient.
 **[⬆ back to top](#table-of-contents)**
 
-  ## Introduction
-![Humorous image of software quality estimation as a count of how many expletives
-you shout when reading code](https://www.linode.com/docs/assets/git-github-workflow-1000w.png)
-
-  Software engineering principles, from Robert C. Martin's book
-[*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for JavaScript. This is not a style guide. It's a guide to producing
-[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript.
 
 
-## **Variables**
-### Use meaningful and pronounceable variable names
+## **cannot push to github: everything up-to-date**
 
-**Bad:**
-```javascript
-const yyyymmdstr = moment().format('YYYY/MM/DD');
-```
-
-**Good:**
-```javascript
-const currentDate = moment().format('YYYY/MM/DD');
-```
 **[⬆ back to top](#table-of-contents)**
