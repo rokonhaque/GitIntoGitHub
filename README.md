@@ -172,5 +172,5 @@ Remember, there's a lot to learn in Git & GitHub. It will take some time, so be 
 
 
 ## **Cannot Push to Github:Everything Up to Date**
-<h2 align="center">Problem 1:-</h2>
+
 **[⬆ back to top](#table-of-contents)**
