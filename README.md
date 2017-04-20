@@ -19,7 +19,7 @@ Ever have a "I lost all my work and I have a deadline the next day" moment? Git 
   
   ## Introduction
 ![Humorous image of software quality estimation as a count of how many expletives
-you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
+you shout when reading code](https://images8.alphacoders.com/430/430944.jpg)
 
   Software engineering principles, from Robert C. Martin's book
 [*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
