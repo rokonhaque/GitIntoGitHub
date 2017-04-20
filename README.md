@@ -24,8 +24,7 @@ Git, simply put, is a tool to save versions of your code.Git is the most popular
 <p align="center">
 <img width="700" alt="GitIntoGitHub!" src="https://www.linode.com/docs/assets/git-github-workflow-1000w.png">
 </p>
-# Why learn Git?
-Ever have a "I lost all my work and I have a deadline the next day" moment? Git is the most popular version control tool - something that developers use to save all relevant versions of their work to avoid moments like those. Git also makes it easy for developers to collaborate and share work with others!
+Git is a software that allows you to keep track of changes made to a project over time. Git works by recording the changes you make to a project, storing those changes, then allowing you to reference them as needed.
 
 ## Table of Contents
 - [Tutorials](#tutorials)
