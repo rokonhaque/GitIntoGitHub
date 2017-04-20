@@ -28,6 +28,15 @@ Git, simply put, is a tool to save versions of your code. This course will show 
 Ever have a "I lost all my work and I have a deadline the next day" moment? Git is the most popular version control tool - something that developers use to save all relevant versions of their work to avoid moments like those. Git also makes it easy for developers to collaborate and share work with others!
 
 ## Table of Contents
+- [Tutorials](#tutorials)
+    - [OOP Fundamentals](#oop-fundamentals)
+    - [OOP Advanced](#oop-advanced)
+    - [Object Oriented Design](#object-oriented-design)
+    - [Design Patterns](#design-patterns)
+    - [Refactoring](#refactoring)
+    - [Architecture](#architecture)
+    - [Miscellaneous](#miscellaneous)
+    
   1. [Introduction](#introduction)
   2. [Variables](#variables)
   3. [Functions](#functions)
