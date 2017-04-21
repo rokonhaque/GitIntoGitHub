@@ -196,29 +196,29 @@ git push origin master <b>--f</b>
 
 
 try:
-
+<b>
 git fetch origin master
 git merge origin master
-
+</b>
 After to wrote this code I received other error: (non-fast-forward)
 
 I write this code:
-
+<b>
 git fetch origin master:tmp
 git rebase tmp
 git push origin HEAD:master
 git branch -D tmp
-
+</b>
 And resolved my problem
 
 
 pull is always the right approach but one exception could be when you are trying to convert a none-Git file system to a Github repository. There you would have to force the first commit in.
-
+<b>
 git init
 git add README.md
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/userName/repoName.git
 git push --force origin master
-
+</b>
 **[⬆ back to top](#table-of-contents)**
