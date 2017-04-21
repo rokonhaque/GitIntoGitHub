@@ -36,6 +36,9 @@ Git is a software that allows you to keep track of changes made to a project ove
  
 - [Git Facing Problems](#git-facing-problems)
     - [Cannot Push to Github Everything Up to Date](#cannot-push-to-github-everything-up-to-date)
+    - [Push rejected fetch first problem](#push-rejected-fetch-first-problem)
+    
+    Push rejected fetch first problem
   
   ## **What is Git and GitHub?**
   Thank famed software developer <b>Linus Torvalds</b> for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
@@ -171,4 +174,22 @@ Remember, there's a lot to learn in Git & GitHub. It will take some time, so be 
 **[⬆ back to top](#table-of-contents)**
 
 ## **Cannot Push to Github Everything Up to Date**
+**[⬆ back to top](#table-of-contents)**
+
+
+## **Push rejected fetch first problem**
+Probably somebody else has pushed to master already, and your commit is behind. Therefore you have to fetch, merge the changeset, and then you'll be able to push again.
+
+If you don't (or even worse, if you force it by using the --force option), you can mess up the commit history.
+
+EDIT: I get into more detail about the last point, since a guy here just gave the Very Bad Advice of using the --force option.
+
+As git is a DVCS, ideally many other developers are working on the same project as you, using the same repository (or a fork of it). If you overwrite forcefully with your changeset, your repository will mismatch other people's, because "you rewrote history". You will make other people unhappy and the repository will suffer. Probably a kitten in the world will cry, too.
+
+TL;DR
+
+    If you want to solve, fetch first.
+    If you want to hack, use the --force option.
+
+You asked for the former, though. Go for 1) always, even if you will always use git by yourself, because it is a good practice.
 **[⬆ back to top](#table-of-contents)**
