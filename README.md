@@ -189,7 +189,45 @@ As git is a DVCS, ideally many other developers are working on the same project 
 TL;DR
 
     If you want to solve, fetch first.
-    If you want to hack, use the <b>--force</b> option.
+    If you want to hack, use the --force option.
 
 You asked for the former, though. Go for 1) always, even if you will always use git by yourself, because it is a good practice.
+
+
+Try this git command
+
+git push origin master <b>--force</b>
+
+or short of force <b>--f</b>
+
+git push origin master <b>--f</b>
+
+
+
+try:
+
+git fetch origin master
+git merge origin master
+
+After to wrote this code I received other error: (non-fast-forward)
+
+I write this code:
+
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+
+And resolved my problem
+
+
+pull is always the right approach but one exception could be when you are trying to convert a none-Git file system to a Github repository. There you would have to force the first commit in.
+
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/userName/repoName.git
+git push --force origin master
+
 **[⬆ back to top](#table-of-contents)**
