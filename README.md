@@ -180,16 +180,16 @@ Remember, there's a lot to learn in Git & GitHub. It will take some time, so be 
 ## **Push rejected fetch first problem**
 Probably somebody else has pushed to master already, and your commit is behind. Therefore you have to fetch, merge the changeset, and then you'll be able to push again.
 
-If you don't (or even worse, if you force it by using the --force option), you can mess up the commit history.
+If you don't (or even worse, if you force it by using the <b>--force</b> option), you can mess up the commit history.
 
-EDIT: I get into more detail about the last point, since a guy here just gave the Very Bad Advice of using the --force option.
+EDIT: I get into more detail about the last point, since a guy here just gave the Very Bad Advice of using the <b>--force</b> option.
 
 As git is a DVCS, ideally many other developers are working on the same project as you, using the same repository (or a fork of it). If you overwrite forcefully with your changeset, your repository will mismatch other people's, because "you rewrote history". You will make other people unhappy and the repository will suffer. Probably a kitten in the world will cry, too.
 
 TL;DR
 
     If you want to solve, fetch first.
-    If you want to hack, use the --force option.
+    If you want to hack, use the <b>--force</b> option.
 
 You asked for the former, though. Go for 1) always, even if you will always use git by yourself, because it is a good practice.
 **[⬆ back to top](#table-of-contents)**
