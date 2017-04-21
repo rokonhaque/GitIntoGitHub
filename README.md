@@ -195,14 +195,14 @@ git push origin master <b>--f</b>
 
 
 
-try:
+try:<br>
 <b>
 git fetch origin master<br>
 git merge origin master<br>
 </b>
 After to wrote this code I received other error: (non-fast-forward)
 
-I write this code:
+I write this code:<br>
 <b>
 git fetch origin master:tmp
 git rebase tmp<br>
@@ -212,7 +212,7 @@ git branch -D tmp<br>
 And resolved my problem
 
 
-pull is always the right approach but one exception could be when you are trying to convert a none-Git file system to a Github repository. There you would have to force the first commit in.
+pull is always the right approach but one exception could be when you are trying to convert a none-Git file system to a Github repository. There you would have to force the first commit in.<br>
 <b>
 git init <br>
 git add README.md<br>
