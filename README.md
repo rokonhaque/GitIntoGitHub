@@ -1,20 +1,11 @@
 <h1 align="center">Git-[Into]-GitHub!</h1>
 
 <p align="center">
-<a href="https://travis-ci.org/php-school/learn-you-php">
-    <img src="https://img.shields.io/travis/php-school/learn-you-php/master.svg?style=flat-square&label=Linux">
+<a href="https://www.linkedin.com/in/beingrokon">
+    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-128.png">
 </a>
-<a href="https://ci.appveyor.com/project/AydinHassan/learn-you-php">
-    <img src="https://img.shields.io/appveyor/ci/AydinHassan/learn-you-php/master.svg?style=flat-square&label=Windows">
-</a>
-<a href="https://codecov.io/github/php-school/learn-you-php">
-    <img src="https://img.shields.io/codecov/c/github/php-school/learn-you-php.svg?style=flat-square">
-</a>
-<a href="https://scrutinizer-ci.com/g/php-school/learn-you-php/">
-    <img src="https://img.shields.io/scrutinizer/g/php-school/learn-you-php.svg?style=flat-square">
-</a>
-<a href="https://phpschool-team.slack.com/messages">
-    <img src="https://phpschool.herokuapp.com/badge.svg">
+<a href="https://twitter.com/BeingDevApp">
+    <img src="https://cdn2.iconfinder.com/data/icons/social-media-2102/100/social_media_network-07-128.png">
 </a>
 </p>
 
