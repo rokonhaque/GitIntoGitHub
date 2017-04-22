@@ -234,11 +234,11 @@ git push --force origin master<br>
 
 If you want to rename a branch while pointed to any branch, do:
 
-git branch -m <oldname> <newname>
+<b>git branch -m [oldname] [newname]</b>
 
 If you want to rename the current branch, you can do:
 
-git branch -m <newname>
+<b>git branch -m [newname]</b>
 
-A way to remember this, is <b>-m<b> is for "move" (or <b>mv<b>), which is how you rename files.
+A way to remember this, is <b>-m</b> is for "move" (or <b>mv</b>), which is how you rename files.
 
