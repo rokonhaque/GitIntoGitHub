@@ -185,6 +185,11 @@ TL;DR
 You asked for the former, though. Go for 1) always, even if you will always use git by yourself, because it is a good practice.
 
 
+You should use <b>git pull</b>, that´s command do a <b>git fetch</b> and next do the <b>git merge</b>.
+
+If you use a <b>git push origin master --force</b> command, you may have problems in the future.
+
+
 Try this git command
 
 git push origin master <b>--force</b>
