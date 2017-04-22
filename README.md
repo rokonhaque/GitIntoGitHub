@@ -190,7 +190,7 @@ You should use <b>git pull</b>, that´s command do a <b>git fetch</b> and next d
 If you use a <b>git push origin master --force</b> command, you may have problems in the future.
 
 
-Try this git command
+<h2>Try this git command</h2>
 
 git push origin master <b>--force</b>
 
@@ -200,7 +200,7 @@ git push origin master <b>--f</b>
 
 
 
-try:<br>
+<h2>try:</h2><br>
 <b>
 git fetch origin master<br>
 git merge origin master<br>
