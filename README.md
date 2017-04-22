@@ -28,6 +28,8 @@ Git is a software that allows you to keep track of changes made to a project ove
 - [Git Facing Problems](#git-facing-problems)
     - [Cannot Push to Github Everything Up to Date](#cannot-push-to-github-everything-up-to-date)
     - [Push rejected fetch first problem](#push-rejected-fetch-first-problem)
+    - [How do I rename a local Git branch](#how-do-i-rename-a-local-git-branch)
+    
     
     Push rejected fetch first problem
   
@@ -227,3 +229,17 @@ git remote add origin https://github.com/userName/repoName.git<br>
 git push --force origin master<br>
 </b>
 **[⬆ back to top](#table-of-contents)**
+
+## **How do I rename a local Git branch**
+
+
+If you want to rename a branch while pointed to any branch, do:
+
+<b>git branch -m <oldname> <newname><b>
+
+If you want to rename the current branch, you can do:
+
+<b>git branch -m <newname> <b>
+
+A way to remember this, is <b>-m<b> is for "move" (or <b>mv<b>), which is how you rename files.
+
