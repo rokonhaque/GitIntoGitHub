@@ -242,3 +242,22 @@ If you want to rename the current branch, you can do:
 
 A way to remember this, is <b>-m</b> is for "move" (or <b>mv</b>), which is how you rename files.
 
+<h2>1. Rename your local branch</h2>
+
+If you are on the branch you want to rename:
+
+<b>git branch -m new-name</b>
+
+If you are on a different branch:
+
+<b>git branch -m old-name new-name</b>
+
+<h2>2. Delete the old-name remote branch and push the new-name local branch</h2>
+
+<b>git push origin :old-name new-name</b>
+
+<h2>3. Reset the upstream branch for the new-name local branch</h2>
+
+<b>git push origin -u new-name</b>
+
+
