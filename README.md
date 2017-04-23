@@ -259,5 +259,43 @@ If you are on a different branch:
 <h2>3. Reset the upstream branch for the new-name local branch</h2>
 
 <b>git push origin -u new-name</b>
+**[⬆ back to top](#table-of-contents)**
+
+## **Renaming a file using the command line**
+
+Many files can be renamed directly on GitHub, but some files, such as images, require that you rename them from the command line.
+
+This procedure assumes you've already:
+
+    Created a repository on GitHub, or have an existing repository owned by someone else you'd like to contribute to
+    Cloned the repository locally on your computer
+
+    Open Git Bash.
+
+    Change the current working directory to your local repository.
+
+    Rename the file, specifying the old file name and the new name you'd like to give the file. This will stage your change for commit.
+
+    git mv old_filename new_filename
+
+    Use git status to check the old and new file names.
+
+    git status
+    # On branch your-branch
+    # Changes to be committed:
+    #   (use "git reset HEAD ..." to unstage)
+    #
+    #     renamed: old_filename -> new_filename
+    #
+
+    Commit the file that you've staged in your local repository.
+
+    git commit -m "Rename file"
+    # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+
+    Push the changes in your local repository to GitHub.
+
+    git push origin your-branch
+    # Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 
