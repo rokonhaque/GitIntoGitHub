@@ -29,6 +29,7 @@ Git is a software that allows you to keep track of changes made to a project ove
     - [Cannot Push to Github Everything Up to Date](#cannot-push-to-github-everything-up-to-date)
     - [Push rejected fetch first problem](#push-rejected-fetch-first-problem)
     - [How do I rename a local Git branch](#how-do-i-rename-a-local-git-branch)
+    - [Renaming a file using the command line](#renaming-a-file-using-the-command-line)
     
     
     Push rejected fetch first problem
@@ -276,26 +277,26 @@ This procedure assumes you've already:
 
     Rename the file, specifying the old file name and the new name you'd like to give the file. This will stage your change for commit.
 
-    git mv old_filename new_filename
+   <b> git mv old_filename new_filename</b>
 
     Use git status to check the old and new file names.
 
-    git status
+    <b>git status
     # On branch your-branch
     # Changes to be committed:
     #   (use "git reset HEAD ..." to unstage)
     #
     #     renamed: old_filename -> new_filename
     #
-
+    </b>
     Commit the file that you've staged in your local repository.
 
-    git commit -m "Rename file"
+    <b>git commit -m "Rename file"</b>
     # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
 
     Push the changes in your local repository to GitHub.
 
-    git push origin your-branch
+    <b>git push origin your-branch</b>
     # Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 
