@@ -264,6 +264,13 @@ If you are on a different branch:
 
 ## **Renaming a file using the command line**
 
+<p>Main Command : <b>git mv application.py newApplication.py</b>
+<b>git status</b>
+ On branch buildServer
+ Changes to be committed:
+   (use "git reset HEAD [file]..." to unstage)
+  renamed:    application.py -> newApplication.py </p>
+
 Many files can be renamed directly on GitHub, but some files, such as images, require that you rename them from the command line.
 
 This procedure assumes you've already:
