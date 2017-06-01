@@ -306,6 +306,6 @@ This procedure assumes you've already:
 **[⬆ back to top](#table-of-contents)**
 ## **Muster push problem must read**
  Github এ master দিয়ে push করার সময় একটু সতর্ক থাকতে হবে, কারন আমার সাথে যেটা হত, ধরো master এ একবার অনেক file push করলাম তারপর আরেকদিন master এ আরও file push করলাম তো 
-master এ নতুন file push করার ফলে master এর আগের সব file delete হয়ে গেছে । এটা আমার সাথে অনেকবার হয়েছে । পরে তো মাথায় হাত । তাই জতদিন পর্যন্ত এর একটা সমাধান না পাই ততদিন পর্যন্ত master
+master এ নতুন file push করার ফলে master এর আগের সব file delete হয়ে গেছে । এটা আমার সাথে অনেকবার হয়েছে । পরে তো মাথায় হাত । তাই জতদিন পর্যন্ত এর একটা সমাধান না পাই ততদিন পর্যন্ত master এ
 নতুন file upload করার আগে আগের master এর file গুলা clone বা download করে রাখবো । টা না হলে আবার মাথায় হাত দিতে হবে ।
 **[⬆ back to top](#table-of-contents)**
