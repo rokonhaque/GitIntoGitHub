@@ -30,9 +30,7 @@ Git is a software that allows you to keep track of changes made to a project ove
     - [Push rejected fetch first problem](#push-rejected-fetch-first-problem)
     - [How do I rename a local Git branch](#how-do-i-rename-a-local-git-branch)
     - [Renaming a file using the command line](#renaming-a-file-using-the-command-line)
-    
-    
-    Push rejected fetch first problem
+    - [Muster push problem must read](#muster-push-problem-must-read)
   
   ## **What is Git and GitHub?**
   Thank famed software developer <b>Linus Torvalds</b> for Git, the software that runs at the heart of GitHub. (And while you’re at it, go ahead thank him for the Linux operating system, too.) Git is version control software, which means it manages changes to a project without overwriting any part of that project. And it’s not going away anytime soon, particularly since Torvalds and his fellow kernel developers employ Git to help develop the core kernel for Linux.
@@ -305,5 +303,9 @@ This procedure assumes you've already:
 
     <b>git push origin your-branch</b>
     # Pushes the changes in your local repository up to the remote repository you specified as the origin
-
-
+**[⬆ back to top](#table-of-contents)**
+## **Muster push problem must read**
+ Github এ master দিয়ে push করার সময় একটু সতর্ক থাকতে হবে, কারন আমার সাথে যেটা হত, ধরো master এ একবার অনেক file push করলাম তারপর আরেকদিন master এ আরও file push করলাম তো 
+master এ নতুন file push করার ফলে master এর আগের সব file delete হয়ে গেছে । এটা আমার সাথে অনেকবার হয়েছে । পরে তো মাথায় হাত । তাই জতদিন পর্যন্ত এর একটা সমাধান না পাই ততদিন পর্যন্ত master
+নতুন file upload করার আগে আগের master এর file গুলা clone বা download করে রাখবো । টা না হলে আবার মাথায় হাত দিতে হবে ।
+**[⬆ back to top](#table-of-contents)**
